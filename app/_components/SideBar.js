@@ -13,6 +13,7 @@ function SideBar() {
           <HiMenu />
         </ButtonIcon>
       </div>
+
       <div className="flex flex-col gap-12 ">
         <div>
           <MainNav className="md:flex-grow" />

@@ -8,7 +8,7 @@ export default async function Material() {
   if (!subjects) return <Spinner />;
 
   return (
-    <div className="flex flex-wrap gap-6 justify-end items-center">
+    <div className="flex overflow-x-scroll gap-6 justify-start items-center whitespace-nowrap w-full">
       {subjects.map((subject) => (
         <MaterialCard key={subject.id}>{subject.name}</MaterialCard>
       ))}
